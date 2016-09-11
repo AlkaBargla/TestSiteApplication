@@ -1,0 +1,202 @@
+﻿@using Test_Site.Controllers
+@using Test_Site.Models
+@{
+    ViewBag.Title = "Enter You're Details";
+}
+
+<div class="container contentArea col-xs-12">
+    <div class="row">
+        <h2>Enter Your Detials</h2>
+    </div>
+
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="inputForenameLabel">Forename*</span>
+            <input type="text" id="inputForename" class="form-control" placeholder="Forename" aria-describedby="inputForenameLabel">
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="inputSurnameLabel">Surname*</span>
+            <input type="text" id="inputSurname" class="form-control" placeholder="Forename" aria-describedby="inputSurnameLabel">
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="inputEmailLabel">Email*</span>
+            <input type="text" id="inputEmail" class="form-control" placeholder="Email" aria-describedby="inputEmailLabel">
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon" id="inputAgeLabel">Age (18-99)*</span>
+            <input type="text" id="inputAge" class="form-control" placeholder="Age" aria-describedby="inputAgeLabel">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">Title</div>
+        <div class="col-md-9">
+            <select id="inputTitle">
+                @{
+                    foreach (var title in Enum.GetNames(typeof(Title)))
+                    {
+                        <option value="name">@title</option>
+                    }
+                }
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <button id="saveButton">Save User Details</button>
+    </div>
+
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+
+		$(document).ready(function () {
+
+			$("#saveButton").click(function () {
+
+				$(".alert").each(function () {
+					$(this).remove();
+				});
+
+				var valid = true;
+
+				var forenameEntered = validateInput("inputForename", "Please etner a forename");
+				valid &= forenameEntered;
+
+				if (forenameEntered) {
+					valid &= validateLength("inputForename", 1, 16);
+				}
+
+				var surnameEntered = validateInput("inputForename", "Please etner a surname");
+				valid &= surnameEntered;
+
+				if (surnameEntered) {
+					valid &= validateLength("inputSurname", 1, 16);
+				}
+
+				var emailEntered = validateInput("inputEmail", "Please enter a Email");
+				valid &= emailEntered;
+
+				if (emailEntered) {
+					valid &= validateLength("inputEmail", 3, 128);
+					valid &= validateEmailAddress("inputEmail");
+				}
+
+				var hasAge = validateInput("inputAge", "Please enter a Age");
+
+				valid &= hasAge;
+
+				if (hasAge) {
+					valid &= validateInputNumeric("inputAge", "Please enter a number", 17, 100);
+				}
+
+				if (valid) {
+
+					var userData = {
+
+						Forename: $("#inputForename").val(),
+						Surname: $("#inputSurname").val(),
+						EmailAddress: $("#inputEmail").val(),
+						Age: $("#inputAge").val(),
+						Title: $("#inputTitle :selected").val()
+
+					};
+
+					$.ajax({
+						url: '@Url.Action("SaveUserInformation")',
+						method: "POST",
+						data: userData,
+						dataType: 'json'
+					}).done(function (result) {
+						window.location.href = '@Url.Action("UserInformation", "Home")/?userId=' + result;
+					}).fail(function () {
+
+					});
+
+				}
+			});
+
+
+		});
+
+		function displayAlert(input, message) {
+
+			var text = '<div class="alert alert-warning alert-dismissible" role="alert">' +
+				 '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+				  message + '</div>';
+
+			$(input.parent().parent()).append(text);
+		}
+
+		function validateInput(inputId, message) {
+
+			var input = $("#" + inputId);
+
+			if (input.val() == "") {
+
+				displayAlert(input, message);
+
+				return false;
+			}
+
+			return true;
+		}
+
+		function validateInputNumeric(inputId, message, minimum, maximum) {
+
+			var input = $("#" + inputId);
+
+			if (input.val() == "" || !isNumeric(input.val())) {
+
+				displayAlert(input, message);
+
+				return false;
+			}
+
+			if (input.val() < minimum || input.val() > maximum) {
+				displayAlert(input, "Age must be between " + minimum + " and " + maximum);
+
+				return false;
+			}
+
+			return true;
+		}
+
+		function validateLength(inputId, minLength, maxLength) {
+			var input = $("#" + inputId);
+
+			if (input.val().length < minLength || input.val().length > maxLength) {
+
+				displayAlert(input, "Value must be between " + minLength + " and " + maxLength + " in length");
+
+				return false;
+			}
+
+			return true;
+		}
+
+		function validateEmailAddress(inputId) {
+			var input = $("#" + inputId);
+
+			if (input.val().indexOf("@@") < 0) {
+				displayAlert(input, "Please enter a valid email address");
+
+				return false;
+			}
+
+			return true;
+		}
+
+		function isNumeric(n) {
+			return !isNaN(parseFloat(n)) && isFinite(n);
+		}
+
+    </script>
+}
+

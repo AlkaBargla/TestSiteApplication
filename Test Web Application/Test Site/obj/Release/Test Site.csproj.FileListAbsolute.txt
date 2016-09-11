@@ -1,0 +1,39 @@
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\csc.exe
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\vbc.exe
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\VBCSCompiler.exe
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Test Site.dll.config
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Test Site.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Test Site.pdb
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Antlr3.Runtime.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Newtonsoft.Json.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Helpers.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Mvc.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Optimization.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Razor.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.Razor.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\WebGrease.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Helpers.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Mvc.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Optimization.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.Razor.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\System.Web.WebPages.Razor.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Antlr3.Runtime.pdb
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\bin\Newtonsoft.Json.xml
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\obj\Release\Test Site.dll
+C:\Users\CW.ISL\Documents\Test Web Application\Test Web Application\Test Site\obj\Release\Test Site.pdb

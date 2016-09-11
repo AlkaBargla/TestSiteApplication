@@ -1,0 +1,36 @@
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\csc.exe
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\vbc.exe
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\SiteTestProject.dll.config
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\SiteTestProject.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\SiteTestProject.pdb
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\nunit.framework.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Mvc.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\Test Site.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Optimization.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Razor.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\Test Site.pdb
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\nunit.framework.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Mvc.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Optimization.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.Razor.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Public\site\Test Web Application\SiteTestProject\obj\Debug\SiteTestProject.csprojResolveAssemblyReference.cache
+C:\Users\Public\site\Test Web Application\SiteTestProject\obj\Debug\SiteTestProject.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\obj\Debug\SiteTestProject.pdb
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\Telerik.JustMock.dll
+C:\Users\Public\site\Test Web Application\SiteTestProject\bin\Debug\Telerik.JustMock.xml
